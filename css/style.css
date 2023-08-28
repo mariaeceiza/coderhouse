@@ -1,0 +1,95 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.contacto { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    flex-direction:row
+    justify-content: center;
+    max-width: 150px;
+    padding: 70px;
+    /*USE PADDING PARA CENTRAR LOS ICONOS SOCIALES*/
+
+}
+/* NO SERAN LOS COLORES FINALES*/
+header { 
+    background-color:#76b5c5; 
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+footer {
+    background-color:palevioletred;
+    display:flex; 
+    justify-content: space-between;
+    margin: 10px;
+}
+.imagenes-lista {
+    max-width: 500px;
+    display: flex;
+    
+    
+}
+.carrusel {
+
+}
+
+.videoslista {
+
+}
+
+.formulario {display: inline-block;
+    width: 80px;
+
+}
+    
+
+.imagenes-codermama {
+    
+    display: flex;
+
+    max-width: 400px;
+
+
+    
+    
+}
+
+.imagenes-lista {display: flex; justify-content: space-around;}
+
+
+
+
+
+ul {display: flex;
+justify-content: space-around;
+list-style-type: none;
+}
+
+ul li {margin: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+
+}
+ul li a{color: crimson; font-size: 25px;}
