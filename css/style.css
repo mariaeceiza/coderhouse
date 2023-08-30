@@ -17,16 +17,16 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
 }
 
 .social {
     display: flex;
-    flex-direction:row
+    flex-direction:row;
     justify-content: center;
-    max-width: 150px;
     padding: 70px;
+    height: 50%;
     /*USE PADDING PARA CENTRAR LOS ICONOS SOCIALES*/
-
 }
 /* NO SERAN LOS COLORES FINALES*/
 header { 
@@ -43,13 +43,16 @@ footer {
     justify-content: space-between;
     margin: 10px;
 }
-.imagenes-lista {
-    max-width: 500px;
-    display: flex;
-    
-    
+.imagenes-lista 
+
+
+
+.carousel-item {
+    max-height: 720px;
 }
-.carrusel {
+.carousel {
+  
+  
 
 }
 
@@ -57,8 +60,10 @@ footer {
 
 }
 
-.formulario {display: inline-block;
-    width: 80px;
+.formulario {
+    display: inline-block;
+    padding: 20px;
+    
 
 }
     
@@ -67,25 +72,26 @@ footer {
     
     display: flex;
 
-    max-width: 400px;
+    max-width: 100%;
 
 
     
     
 }
 
-.imagenes-lista {display: flex; justify-content: space-around;}
-
-
-
-
-
-ul {display: flex;
-justify-content: space-around;
-list-style-type: none;
+.imagenes-lista {
+    display: flex; 
+    justify-content: space-around;
 }
 
-ul li {margin: 25px;
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 25px;
 }
 
 ul li a{
@@ -93,3 +99,4 @@ ul li a{
 
 }
 ul li a{color: crimson; font-size: 25px;}
+
